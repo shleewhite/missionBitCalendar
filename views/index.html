@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <head></head>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="behavior.js"></script>
+    </head>
     <body>
         <table>
             <tr>
-                <th colspan="4">2015</th>
+                <th id="year" colspan="4">2015</th>
             </tr>
             <tr>
-                <td><a href="/months/jan">January</a></td>
-                <td></td><a href="/months/feb">February</a></td>
-                <td><a href="/months/march">March</a></td>
-                <td><a href="/months/april">April</a></td>
+                <td class="month" data-month-name="jan">January</td>
+                <td class="month" data-month-name="feb">February</td>
+                <td class="month" data-month-name="mar">March</td>
+                <td class="month" data-month-name="apr">April</td>
             </tr>
             <tr>
-                <td><a href="/months/may">May</a></td>
-                <td><a href="/months/june">June</a></td>
-                <td><a href="/months/july">July</a></td>
-                <td><a href="/months/aug">August</a></td>
+                <td class="month" data-month-name="may">May</td>
+                <td class="month" data-month-name="jun">June</td>
+                <td class="month" data-month-name="jul">July</td>
+                <td class="month" data-month-name="aug">August</td>
             </tr>
             <tr>
-                <td><a href="/months/sept">September</a></td>
-                <td><a href="/months/oct">October</a></td>
-                <td><a href="/months/nov">November</a></td>
-                <td><a href="/months/dec">December</a></td>
+                <td class="month" data-month-name="sep">September</td>
+                <td class="month" data-month-name="oct">October</td>
+                <td class="month" data-month-name="nov">November</td>
+                <td class="month" data-month-name="dec">December</td>
             </tr>
         </table>
     </body>
