@@ -13,13 +13,13 @@ table th {
     font-size: 100px;
 }
 #jan, #feb, #march, #april, #may, #june, #july, #aug, #sept, #oct, #nov, #dec{
-   border-color: #000000;
-    /*border-radius: 25px;*/
-    /*border-style: double;*/
-    /*border-spacing: 50px 20px;*/
-    /*border-top-width: 15px;*/
-    /*border-bottom-width: 15px;*/
-    /*border-left-width: 15px;*/
-    /*border-right-width: 15px;*/
+    border-color: #000000;
+    border-radius: 25px;
+    border-style: double;
+    border-spacing: 50px 20px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-right-width: 15px;
     
 }
