@@ -10,7 +10,7 @@ table th {
     text-align: center;
 }
 #year{
-    font-family: 'Lobster', cursive;
+    /*font-family: 'Lobster', cursive;*/
     font-size: 100px;
 }
 .month{
@@ -24,5 +24,31 @@ table th {
     border-left-width: 15px;
     border-right-width: 15px;
     cursor: pointer;
-    
+}
+.monthHeader {
+    font-size: 75px;
+    border-style: none;
+}
+.weekday {
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 25px;
+}
+#monthTable {
+    border-spacing: 0px;
+    border-color: #000000;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 0px;
+}
+.days {
+    font-size: 20px;
+    text-align: left;
+    border-style: double;
+}
+.noOne {
+    text-align: center;
+}
+.nextMonth {
+    color: #9C9C9C;
 }
