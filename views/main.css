@@ -10,7 +10,8 @@ table th {
     text-align: center;
 }
 #year{
-    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Monofett', cursive;*/
+    font-family: 'Lobster', cursive;
     font-size: 100px;
 }
 .month{
@@ -24,22 +25,39 @@ table th {
     border-left-width: 15px;
     border-right-width: 15px;
     cursor: pointer;
+    /*makes buttons have the gradience*/
+    
+background: rgba(255,93,177,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(5,235,216,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#05ebd8', GradientType=1 );
+    
 }
 .monthHeader {
     font-size: 75px;
     border-style: none;
+    
 }
 .weekday {
     font-size: 50px;
     border-style: solid;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
+    height: 30px;
+    border-spacing: 10px;
+    border-width: 1px;
 }
 #monthTable {
     border-spacing: 0px;
     border-color: #000000;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     cursor: pointer;
     padding: 0px;
+    border-bottom: solid;
+    border-width: 1px;
 }
 .days {
     font-size: 20px;
@@ -47,8 +65,44 @@ table th {
     border-style: double;
 }
 .noOne {
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
 }
 .nextMonth {
     color: #9C9C9C;
+    font-size: 20px;
+}
+.marchPeople {
+    font-size: 20px;
+}
+
+.nums, .nextMonth {
+    text-align: left;
+    font-size: 20px;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: solid;
+    border-width: 1px;
+
+}
+
+.people {
+    border-right: solid;
+    border-width: 1px;
+    font-size: 20px;
+}
+
+.people:first-of-type {
+    border-left: solid;
+    border-width: 1px
+}
+
+.nums:first-of-type {
+    border-left: solid;
+    border-width: 1px
+}
+
+tr.days:last-of-type {
+    border-bottom: solid;
+    border-width: 1px
 }
