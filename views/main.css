@@ -1,3 +1,10 @@
+html{
+  height:100%;
+  width:100%;
+  background-image: url("triangle-background-17.jpg");
+  background-size: 100% 120%;
+}
+
 table {
     text-align: center;
     font-size: 50px;
@@ -10,49 +17,58 @@ table th {
     text-align: center;
 }
 #year{
-    /*font-family: 'Monofett', cursive;*/
-    font-family: 'Lobster', cursive;
+    font-family: 'Syncopate', sans-serif;
     font-size: 100px;
+    color: #39454b;
 }
 .month{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 60%;
+    color: #39454b;
     border-collapse: separate;
-    border-color: #000000;
+    border-color: #39454b;
     border-radius: 25px;
     border-style: double;
 
-    border-top-width: 15px;
-    border-bottom-width: 15px;
-    border-left-width: 15px;
-    border-right-width: 15px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
     cursor: pointer;
+
     /*makes buttons have the gradience*/
     
-background: rgba(255,93,177,1);
-background: -moz-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(5,235,216,1)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
-background: radial-gradient(ellipse at center, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#05ebd8', GradientType=1 );
+/*background: rgba(255,93,177,1);*/
+/*background: -moz-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);*/
+/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(5,235,216,1)));*/
+/*background: -webkit-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);*/
+/*background: -o-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);*/
+/*background: -ms-radial-gradient(center, ellipse cover, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);*/
+/*background: radial-gradient(ellipse at center, rgba(255,93,177,1) 0%, rgba(5,235,216,1) 100%);*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#05ebd8', GradientType=1 );*/
     
 }
 .monthHeader {
+    font-family: 'Syncopate', sans-serif;
     font-size: 75px;
     border-style: none;
-    
+    font-weight:100;
+    color: #39454b;
 }
+
 .weekday {
-    font-size: 50px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 30px;
     border-style: solid;
     /*border-radius: 25px;*/
     height: 30px;
     border-spacing: 10px;
     border-width: 1px;
+    color: #39454b;
 }
 #monthTable {
     border-spacing: 0px;
-    border-color: #000000;
+    border-color: white;
     /*border-radius: 25px;*/
     cursor: pointer;
     padding: 0px;
@@ -90,6 +106,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
     border-right: solid;
     border-width: 1px;
     font-size: 20px;
+    color: black;
 }
 
 .people:first-of-type {
